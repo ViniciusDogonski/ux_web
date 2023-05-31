@@ -21,6 +21,8 @@ function App() {
     <div className="App">
       {/* <p>dasas</p> */}
       <Banner></Banner>
+     
+     
       <ColorsMeanings
         primaryColor={'#EA1D24'}
         colorOne={'#FFBBBA'}
@@ -47,9 +49,9 @@ function App() {
         colorOne={'#B2CDE0'}
         ColorTwo={'#6497B2'}
         ColorThree={'#001F4B'}
-        associado={['sol']}
-        possitivo={['alegria', 'brilho', 'otimismo', 'idealismo']}
-        negativo={['covardia', 'decepção', 'ciúmes', 'cuidado']}
+        associado={['mar', 'céu']}
+        possitivo={['confiar', 'conhecimento', 'paz', 'lealdade']}
+        negativo={['depressão', 'frieza', 'apatia', 'destacamento']}
         imagem={superMan}
       />
 
