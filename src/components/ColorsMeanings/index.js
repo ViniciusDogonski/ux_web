@@ -38,7 +38,7 @@ function ColorsMeanings(props) {
                                 ))}
                                 <br />
 
-                                <p>Possitivo:</p>
+                                <p>Positivo:</p>
                                 {props.possitivo.map((s) => (
 
                                     <h6 style={{ color: props.primaryColor }}>{s}</h6>
