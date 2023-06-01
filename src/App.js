@@ -25,7 +25,7 @@ import minions from '../src/image/mini_resized.png';
 function App() {
   return (
     <div className="App">
-      {/* <p>dasas</p> */}
+    
       <Banner></Banner>
       <Intro></Intro>
       <Color></Color>
