@@ -1,0 +1,33 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: #ffffff;
+    /* background-image: linear-gradient( white 0%,  */
+    /* white 70%, rgb(0, 0, 0) 100%) */
+}
+.container2 #txt{
+    color:#f30404;
+    font-family: "Montserrat";
+    font-size: 3rem;
+    text-align: center;
+}
+.container2 .text-content{
+    width: 100%;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.text-content p {
+    color: #000000;
+    text-align: justify;
+    font-family: "Montserrat";
+    font-weight: 100;
+}
+
+.container2 .content .img{
+    height: 100%;
+}

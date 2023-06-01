@@ -18,7 +18,7 @@ function ColorsMeanings(props) {
                         <div class="flex col structure-2-2">
                             <div class="flex element g">
                                 <div class="content" style={{ background: props.primaryColor }}>
-                                    Vermelho
+                                    
                                 </div>
                             </div>
                             <div class="flex element h" >

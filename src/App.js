@@ -8,11 +8,15 @@ import ReactDOM from "react-dom/client";
 // import "bootstrap/dist/js/bootstrap.bundle.min";
 
 import Banner from './section/Banner';
+import Intro from './section/Intro';
+import Color from './section/Color';
+import Waves from './section/Waves';
 import ColorsMeanings from './components/ColorsMeanings';
 import ColorHarmony from './section/ColorHarmony/index';
 
 
 //imgs
+//import pretoBranco from '../src/image/preto_branco.PNG';
 import superMan from '../src/image/super_resized.png';
 import laCasaDePapel from '../src/image/poster_la_casa.jpg';
 import minions from '../src/image/mini_resized.png';
@@ -23,7 +27,9 @@ function App() {
     <div className="App">
       {/* <p>dasas</p> */}
       <Banner></Banner>
-
+      <Intro></Intro>
+      <Color></Color>
+      <Waves></Waves>
       <ColorHarmony />
 
       <ColorsMeanings
