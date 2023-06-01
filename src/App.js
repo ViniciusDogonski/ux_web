@@ -9,6 +9,8 @@ import ReactDOM from "react-dom/client";
 
 import Banner from './section/Banner';
 import ColorsMeanings from './components/ColorsMeanings';
+import ColorHarmony from './section/ColorHarmony/index';
+
 
 //imgs
 import superMan from '../src/image/super_resized.png';
@@ -21,8 +23,9 @@ function App() {
     <div className="App">
       {/* <p>dasas</p> */}
       <Banner></Banner>
-     
-     
+
+      <ColorHarmony />
+
       <ColorsMeanings
         primaryColor={'#EA1D24'}
         colorOne={'#FFBBBA'}
