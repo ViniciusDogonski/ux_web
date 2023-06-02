@@ -30,7 +30,7 @@ function ColorsMeanings(props) {
                         </div>
                         <div class="flex element f">
                             <div class="content">
-                                <p className='black'>Associado:</p>
+                                <p className='black' style={{textAlign: 'center'}}>Associado:</p>
                                 {props.associado.map((s) => (
 
                                     <h6 style={{ color: props.primaryColor }}>{s}</h6>
@@ -38,14 +38,14 @@ function ColorsMeanings(props) {
                                 ))}
                                 <br />
 
-                                <p className='black' >Positivo:</p>
+                                <p className='black' style={{textAlign: 'center'}} >Positivo:</p>
                                 {props.possitivo.map((s) => (
 
                                     <h6 style={{ color: props.primaryColor }}>{s}</h6>
 
                                 ))}
                                 <br />
-                                <p className='black'>Negativo:</p>
+                                <p className='black' style={{textAlign: 'center'}}>Negativo:</p>
                                 {props.negativo.map((s) => (
 
                                     <h6 style={{ color: props.primaryColor }}>{s}</h6>

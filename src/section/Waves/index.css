@@ -5,10 +5,10 @@
     justify-content: center;
     height: 100vh;
     width: 100%;
-    background-color: black;
+    background-color: #0d0d0d;
 }
 .text-content p {
-    color: #000000;
+    color: #fffefe;
     text-align: justify;
     font-family: "Montserrat";
     font-weight: 100;
